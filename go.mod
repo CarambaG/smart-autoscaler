@@ -1,4 +1,4 @@
-module smart-autoscaler
+module github.com/CarambaG/smart-autoscaler
 
 go 1.25
 
