@@ -581,8 +581,8 @@ func (a *Autoscaler) Stop() {
 	a.isRunning = false
 }
 
-// setupRouter настраивает HTTP роутер
-func (a *Autoscaler) setupRouter() *mux.Router {
+// SetupRouter настраивает HTTP роутер
+func (a *Autoscaler) SetupRouter() *mux.Router {
 	r := mux.NewRouter()
 
 	// API endpoints
